@@ -8,7 +8,6 @@ openai.api_key = "CPCdk0GAFIxs4KPGOAJjT3BlbkFJB5kweBBXXI2mfIaNQYq4"
 
 # Initialise the bot
 bot = telebot.TeleBot('6186371655:AAEAjgjZSk2yhgijuexGbWtNY99Q9G6GZrQ')
-bot.remove_webhook()
 
 
 @bot.message_handler(commands=['chat'])
